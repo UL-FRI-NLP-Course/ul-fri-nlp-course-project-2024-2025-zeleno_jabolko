@@ -81,7 +81,7 @@ def load_data(file_path, date_filter):
     return cleaned_data
 
 # --- Core Logic Function ---
-def generate_and_save_report(model, system_prompt, model_name, template_path, output_dir):
+def generate_and_save_report(model, system_prompt, model_name, template_path, output_dir, date_filter):
     """Generates the report using the model and saves it to a file."""
     print("Generating report...")
     start_time = time.time()
@@ -95,10 +95,14 @@ def generate_and_save_report(model, system_prompt, model_name, template_path, ou
         print(f"\nResponse generated in: {end_time - start_time:.2f} seconds")
 
         # --- Save response to file ---
-        prompt_template_filename = os.path.basename(template_path)
-        output_filename = f"{model_name}-{prompt_template_filename}"
+        # Extract the base name of the template file without extension
+        prompt_template_basename = os.path.splitext(os.path.basename(template_path))[0]
+        # Format the date_filter for use in a filename
+        formatted_date_filter = date_filter.replace(' ', '_').replace(':', '-')
+        # Construct the output filename including model name, template base name, and formatted date filter
+        output_filename = f"{model_name}-{prompt_template_basename}-{formatted_date_filter}.txt"
         output_filepath = os.path.join(output_dir, output_filename)
-        
+
         # Ensure the output directory exists
         os.makedirs(output_dir, exist_ok=True)
 
@@ -143,7 +147,7 @@ def main():
     # print("--- End System Prompt ---\n")
 
     # 6. Generate and Save Report
-    generate_and_save_report(model, system_prompt, model_name, prompt_template_path, output_dir)
+    generate_and_save_report(model, system_prompt, model_name, prompt_template_path, output_dir, date_filter) # Pass date_filter here
 
 if __name__ == "__main__":
     main()
