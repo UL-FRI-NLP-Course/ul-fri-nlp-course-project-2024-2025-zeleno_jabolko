@@ -56,19 +56,23 @@ def load_data(file_path, date_filter):
     """Loads and preprocesses data from the Excel file."""
     df_data = read_recent_excel_data(file_path, date_filter)
 
+    # Take only the last row for debugging
+    df_data = df_data.tail(1)
+
     # Configure pandas display options (optional, can be removed if not needed globally)
     pd.set_option('display.max_columns', None)
     pd.set_option('display.max_rows', None)
     pd.set_option('display.width', None)
     pd.set_option('display.max_colwidth', None)
 
-    columns_to_keep = ['TitlePomembnoSLO', 'ContentPomembnoSLO', 'TitleNesreceSLO',
+    """ columns_to_keep = ['TitlePomembnoSLO', 'ContentPomembnoSLO', 'TitleNesreceSLO',
                        'ContentNesreceSLO', 'TitleZastojiSLO', 'ContentZastojiSLO',
                        'TitleVremeSLO', 'ContentVremeSLO', 'TitleOvireSLO',
                        'ContentOvireSLO', 'TitleDeloNaCestiSLO', 'ContentDeloNaCestiSLO',
                        'TitleOpozorilaSLO', 'ContentOpozorilaSLO',
                        'TitleMednarodneInformacijeSLO', 'ContentMednarodneInformacijeSLO',
-                       'TitleSplosnoSLO', 'ContentSplosnoSLO']
+                       'TitleSplosnoSLO', 'ContentSplosnoSLO'] """
+    columns_to_keep = ['A1', 'B1']
     
     # Ensure only existing columns are selected
     existing_columns = [col for col in columns_to_keep if col in df_data.columns]
@@ -91,8 +95,8 @@ def generate_and_save_report(model, system_prompt, model_name, template_path, ou
         response = model.generate_content(system_prompt)
         end_time = time.time()
 
-        print("\nModel's response:\n", response.text)
-        print(f"\nResponse generated in: {end_time - start_time:.2f} seconds")
+        #print("\nModel's response:\n", response.text)
+        #print(f"\nResponse generated in: {end_time - start_time:.2f} seconds")
 
         # --- Save response to file ---
         # Extract the base name of the template file without extension
@@ -110,7 +114,7 @@ def generate_and_save_report(model, system_prompt, model_name, template_path, ou
         with open(output_filepath, 'w', encoding='utf-8') as f:
             f.write(response.text)
         print(f"\nResponse saved to: {output_filepath}")
-
+        return response.text
     except Exception as e:
         print(f"\nError during report generation or saving: {e}")
 
@@ -141,7 +145,7 @@ def main():
     traffic_data = load_data(data_path, date_filter)
 
     # 5. Construct System Prompt
-    system_prompt = f"{custom_instructions}\n\nTrenutni podatki o prometu:\n{traffic_data}"
+    system_prompt = f"{custom_instructions}\n\n**VNOSNI PODATKI ZA PREOBLIKOVANJE**:\n{traffic_data}"
     # print("\n--- System Prompt ---") # Uncomment to print the full prompt
     # print(system_prompt)
     # print("--- End System Prompt ---\n")

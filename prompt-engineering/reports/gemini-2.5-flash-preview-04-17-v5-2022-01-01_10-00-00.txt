@@ -1,0 +1,13 @@
+"""
+Na Primorski avtocesti med Razcepom Gabrk in Fernetiči proti Fernetičem prometna nesreča povzroča zastoj.
+
+Na Gorenjski avtocesti med priključkoma Kranj vzhod in Kranj zahod proti Karavankam okvara vozila ovira promet na voznem pasu.
+
+Na regionalni cesti Ljubljana - Vrhnika pri Brezovici predmet na cestišču ovira promet.
+
+Na Vipavski hitri cesti zaradi burje velja 2. stopnja. Prepovedan je promet za počitniške prikolice, hladilnike in vozila s ponjavami. Preklic 2. stopnje burje.
+
+Na severni ljubljanski obvoznici med priključkoma Bežigrad in Zadobrova proti Zadobrovi je zastoj.
+
+Povečan promet osebnih vozil je na mejnem prehodu Gruškovje pri vstopu in izstopu iz države ter v Obrežju pri vstopu v državo.
+"""

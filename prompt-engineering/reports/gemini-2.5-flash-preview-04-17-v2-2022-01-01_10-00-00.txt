@@ -1,0 +1,9 @@
+<START_TRAFFIC_REPORT>
+Pozor na Primorski avtocesti proti Kopru: zaradi prometne nesreče je zastoj pred cestninsko postajo Logaršče. Zastoj je dolg približno dva kilometra.
+
+Na Vipavski hitri cesti v obe smeri: zaradi močne burje je prepovedan promet za počitniške prikolice, hladilnike in cerade. Omejitve veljajo med razcepom Nanos in Vogrskim.
+
+Glavna cesta od Ljubljane proti Trzinu: zaprta zaradi del na cesti med Črnučami in Trzinom. Obvoz je urejen po okoliških cestah.
+
+Zaradi povečanega prometa na Gorenjski avtocesti proti Ljubljani: zastoj med priključkoma Kranj zahod in Kranj vzhod. Zastoj je dolg okoli en kilometer.
+<END_TRAFFIC_REPORT>

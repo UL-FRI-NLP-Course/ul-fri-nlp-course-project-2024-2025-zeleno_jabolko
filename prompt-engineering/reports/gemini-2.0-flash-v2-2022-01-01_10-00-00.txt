@@ -1,0 +1,16 @@
+<START_TRAFFIC_REPORT>
+Na Gorenjski avtocesti proti Ljubljani je zaradi prometne nesreče oviran promet med počivališčem Lukovica in cestninsko postajo Torovo.
+
+Zaradi močne burje je prepovedan promet za vsa vozila s ponjavami, hladilnike in avtobuse na Vipavski hitri cesti med razcepom Nanos in Vrtojbo proti Italiji.
+
+Na Dolenjski avtocesti proti Ljubljani je zaradi delovne zapore zaprt prehitevalni pas med priključkom Grosuplje vzhod in razcepom Malence.
+
+Zaradi prometne nesreče je oviran promet na Štajerski avtocesti proti Mariboru med cestninsko postajo Vransko in priključkom Celje center.
+
+Zaradi okvare vozila je oviran promet na Primorski avtocesti proti Kopru pred priključkom Brezovica.
+
+Na Ljubljanski severni obvoznici je zaradi zgoščenega prometa zastoj od priključka Šmartno proti Zadobrovi. Zastoj je dolg približno dva kilometra.
+
+Zaradi delovne zapore je oviran promet na regionalni cesti ŠKOFJA LOKA – GORENJA VAS proti Gorenji vasi.
+
+</START_TRAFFIC_REPORT>
