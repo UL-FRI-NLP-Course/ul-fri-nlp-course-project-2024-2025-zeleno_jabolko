@@ -1,0 +1,5 @@
+<START_TRAFFIC_REPORT>
+Na primorski avtocesti je zaradi okvare tovornega vozila oviran promet pred priključkom Divača proti Ljubljani.
+
+V četrtek bodo na gorenjski avtocesti v predoru Karavanke potekala dela med 8. in 16. uro. Promet bo izmenično enosmerno s čakanjem pred predorom.
+<END_TRAFFIC_REPORT>

@@ -89,3 +89,5 @@ Prepoved prometa:
 
 
 Si obveščevalec na radio za promet. Glede na zgornja navodila sestavi teskst ki bo prebran na radiju. Besedilo preoblikuj v ustrezno obliko.
+
+Vhodni podatki:

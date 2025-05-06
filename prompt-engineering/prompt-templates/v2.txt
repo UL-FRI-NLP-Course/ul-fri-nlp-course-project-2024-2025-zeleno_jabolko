@@ -40,3 +40,4 @@
 [Prometna informacija 3, oblikovana po pravilih]
 <END_TRAFFIC_REPORT>
 
+**VHODNI PODATKI:**

@@ -99,6 +99,8 @@ for original_path in original_reports:
         prompt = evalutation_template_string.replace('<original-report>', original_content).replace('<generated-report>', generated_content)
         
         try:
+            import time
+            time.sleep(10)  # To avoid hitting the rate limit
             print("Sending request to Gemini...")
             # Get evaluation from Gemini
             response = eval_model.generate_content(prompt)

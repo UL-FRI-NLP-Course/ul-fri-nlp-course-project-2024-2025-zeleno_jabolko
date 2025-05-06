@@ -54,7 +54,12 @@ def load_api_key():
 
 def load_data(file_path, date_filter):
     """Loads and preprocesses data from the Excel file."""
-    df_data = read_recent_excel_data(file_path, date_filter)
+    sheet = 0
+    if date_filter.startswith("2024"):
+        sheet = 2
+    elif date_filter.startswith("2023"):
+        sheet = 1
+    df_data = read_recent_excel_data(file_path, date_filter, sheet_name=sheet)
 
     # Take only the last row for debugging
     df_data = df_data.tail(1)
@@ -76,8 +81,8 @@ def load_data(file_path, date_filter):
     
     # Ensure only existing columns are selected
     existing_columns = [col for col in columns_to_keep if col in df_data.columns]
-    data_str = df_data[existing_columns].fillna('').to_string(index=False)
-
+    data_str = df_data[existing_columns].fillna('').to_string(index=False, header=False)
+    return data_str
     # Use BeautifulSoup to convert HTML to plain text and clean whitespace
     soup = BeautifulSoup(data_str, 'html.parser')
     cleaned_data = soup.get_text()
@@ -143,9 +148,9 @@ def main():
 
     # 4. Load and Prepare Data
     traffic_data = load_data(data_path, date_filter)
-
+    print(f"Loaded traffic data:\n{traffic_data}\n\n")
     # 5. Construct System Prompt
-    system_prompt = f"{custom_instructions}\n\n**VNOSNI PODATKI ZA PREOBLIKOVANJE**:\n{traffic_data}"
+    system_prompt = f"{custom_instructions}\n\n{traffic_data}"
     # print("\n--- System Prompt ---") # Uncomment to print the full prompt
     # print(system_prompt)
     # print("--- End System Prompt ---\n")

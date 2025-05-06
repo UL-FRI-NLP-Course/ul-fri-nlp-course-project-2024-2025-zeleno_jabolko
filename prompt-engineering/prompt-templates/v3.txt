@@ -41,3 +41,5 @@ Na nekdanji hitri cesti skozi Maribor proti Slivnici predmet na cestišču ovira
 
 Povečan promet osebnih vozil je na mejnem prehodu Obrežje pri vstopu v državo in izstopu iz nje ter v Gruškovju, samo pri izstopu iz države.
 """
+
+**VHODNI PODATKI:**

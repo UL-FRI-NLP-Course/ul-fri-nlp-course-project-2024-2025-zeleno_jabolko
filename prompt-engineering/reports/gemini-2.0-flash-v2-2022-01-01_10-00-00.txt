@@ -1,16 +1,9 @@
 <START_TRAFFIC_REPORT>
-Na Gorenjski avtocesti proti Ljubljani je zaradi prometne nesreče oviran promet med počivališčem Lukovica in cestninsko postajo Torovo.
+Pozor! Zaradi gorečega vozila je zaprta Gorenjska avtocesta med uvozom Brezje in predorom Ljubno proti Ljubljani. Obvoz je možen po vzporedni regionalni cesti med priključkoma Brezje in Podtabor.
 
-Zaradi močne burje je prepovedan promet za vsa vozila s ponjavami, hladilnike in avtobuse na Vipavski hitri cesti med razcepom Nanos in Vrtojbo proti Italiji.
+Zaradi gorečega vozila je zaprt vozni pas na Gorenjski avtocesti med Brezjem in predorom Ljubno proti Ljubljani.
 
-Na Dolenjski avtocesti proti Ljubljani je zaradi delovne zapore zaprt prehitevalni pas med priključkom Grosuplje vzhod in razcepom Malence.
+Ponekod po Sloveniji megla v pasovih zmanjšuje vidljivost. Prilagodite hitrost!
 
-Zaradi prometne nesreče je oviran promet na Štajerski avtocesti proti Mariboru med cestninsko postajo Vransko in priključkom Celje center.
-
-Zaradi okvare vozila je oviran promet na Primorski avtocesti proti Kopru pred priključkom Brezovica.
-
-Na Ljubljanski severni obvoznici je zaradi zgoščenega prometa zastoj od priključka Šmartno proti Zadobrovi. Zastoj je dolg približno dva kilometra.
-
-Zaradi delovne zapore je oviran promet na regionalni cesti ŠKOFJA LOKA – GORENJA VAS proti Gorenji vasi.
-
-</START_TRAFFIC_REPORT>
+Po Sloveniji velja med prazniki omejitev za tovorna vozila z največjo dovoljeno maso nad 7,5 ton danes do 22. ure in v nedeljo, 2. januarja, od 8. do 22. ure.
+</END_TRAFFIC_REPORT>
