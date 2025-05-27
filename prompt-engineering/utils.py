@@ -7,6 +7,171 @@ def load_prompt_template(file_path):
         prompt_template = file.read()
     return prompt_template
 
+def compare_rtf_excel_data(rtf_file_path: str, excel_file_path: str, sheet_name=0) -> dict:
+    """
+    Compares important data between an RTF file and an Excel file.
+
+    Args:
+        rtf_file_path (str): The path to the RTF file.
+        excel_file_path (str): The path to the Excel file.
+        sheet_name (int or str, optional): The sheet name or index for the Excel file. Defaults to 0.
+
+    Returns:
+        dict: A dictionary containing:
+            - 'match' (bool): True if the important data matches, False otherwise.
+            - 'match_score' (float): A score between 0 and 1 indicating how well the data matches.
+            - 'details' (list): A list of strings with details about the comparison.
+    """
+    # Read the RTF file
+    rtf_result = read_rtf_file(rtf_file_path)
+    if not rtf_result:
+        return {
+            'match': False,
+            'match_score': 0.0,
+            'details': ["Failed to read the RTF file."]
+        }
+
+    # Extract date, time, and text from the RTF file
+    rtf_date_time = rtf_result.get('date_time')
+    rtf_text = rtf_result.get('text', '')
+
+    if not rtf_date_time:
+        return {
+            'match': False,
+            'match_score': 0.0,
+            'details': ["Could not extract date and time from the RTF file."]
+        }
+
+    # Format the date and time for Excel comparison
+    current_time_str = rtf_date_time.strftime('%Y-%m-%d %H:%M:%S')
+
+    # Read the Excel file data for the time period around the RTF date and time
+    excel_df = read_recent_excel_data(excel_file_path, current_time_str, sheet_name)
+
+    if excel_df.empty:
+        return {
+            'match': False,
+            'match_score': 0.0,
+            'details': ["No matching data found in the Excel file for the given date and time."]
+        }
+
+    # Initialize comparison results
+    details = []
+    match_points = 0
+    total_points = 3  # Date, time, and content
+
+    # Compare date and time
+    date_match = False
+    time_match = False
+
+    # Check if the RTF date and time matches any row in the Excel file
+    for _, row in excel_df.iterrows():
+        excel_date_time = row.get('Datum')
+        if excel_date_time:
+            # Compare date
+            if excel_date_time.date() == rtf_date_time.date():
+                date_match = True
+                match_points += 1
+                details.append(f"Date match: {rtf_date_time.date()} == {excel_date_time.date()}")
+
+            # Compare time (allow for small differences, e.g., within 5 minutes)
+            time_diff = abs((excel_date_time - rtf_date_time).total_seconds() / 60)
+            if time_diff <= 5:  # Within 5 minutes
+                time_match = True
+                match_points += 1
+                details.append(f"Time match: {rtf_date_time.strftime('%H:%M')} ≈ {excel_date_time.strftime('%H:%M')} (within {time_diff:.1f} minutes)")
+
+    if not date_match:
+        details.append(f"Date mismatch: RTF date {rtf_date_time.date()} not found in Excel data.")
+
+    if not time_match:
+        details.append(f"Time mismatch: RTF time {rtf_date_time.strftime('%H:%M')} not closely matched in Excel data.")
+
+    # Compare content
+    # Extract key information from RTF text (e.g., location names, traffic conditions)
+    # This is a simplified approach - in a real-world scenario, you might use NLP techniques
+    # to extract and compare more sophisticated features
+
+    # Extract location names and traffic conditions from RTF text
+    locations = []
+    traffic_conditions = []
+
+    # Common location patterns in traffic reports
+    location_patterns = [
+        r'(avtocest[a-z]+)',  # highways
+        r'(cest[a-z]+)',      # roads
+        r'(Ljubljana|Maribor|Celje|Kranj|Koper|Novo mesto|Nova Gorica)',  # major cities
+        r'(predorom \w+)',    # tunnels
+        r'(most\w* \w+)'      # bridges
+    ]
+
+    # Common traffic condition patterns
+    condition_patterns = [
+        r'(zastoj)',          # traffic jam
+        r'(kolona)',          # queue
+        r'(zaprta)',          # closed
+        r'(oviran promet)',   # hindered traffic
+        r'(nesreča)',         # accident
+        r'(dela)',            # roadworks
+        r'(pokvarjen)'        # broken down
+    ]
+
+    # Extract locations
+    for pattern in location_patterns:
+        matches = re.finditer(pattern, rtf_text, re.IGNORECASE)
+        for match in matches:
+            locations.append(match.group(0).lower())
+
+    # Extract traffic conditions
+    for pattern in condition_patterns:
+        matches = re.finditer(pattern, rtf_text, re.IGNORECASE)
+        for match in matches:
+            traffic_conditions.append(match.group(0).lower())
+
+    # Check if any of the extracted information is present in the Excel data
+    content_match_score = 0
+    content_matches = []
+
+    # Convert Excel data to string for text search
+    excel_text = ' '.join(excel_df.astype(str).values.flatten()).lower()
+
+    # Check locations
+    for location in locations:
+        if location in excel_text:
+            content_match_score += 1
+            content_matches.append(f"Location '{location}' found in Excel data")
+
+    # Check traffic conditions
+    for condition in traffic_conditions:
+        if condition in excel_text:
+            content_match_score += 1
+            content_matches.append(f"Traffic condition '{condition}' found in Excel data")
+
+    # Calculate content match percentage
+    total_items = len(locations) + len(traffic_conditions)
+    if total_items > 0:
+        content_match_percentage = content_match_score / total_items
+        if content_match_percentage >= 0.5:  # At least 50% of items match
+            match_points += 1
+            details.append(f"Content match: {content_match_percentage:.0%} of key items found in Excel data")
+            details.extend(content_matches)
+        else:
+            details.append(f"Content mismatch: Only {content_match_percentage:.0%} of key items found in Excel data")
+    else:
+        details.append("No key content items extracted from RTF text for comparison")
+
+    # Calculate overall match score
+    match_score = match_points / total_points if total_points > 0 else 0
+
+    # Determine if it's a match (threshold: 2 out of 3 points, or about 67%)
+    is_match = match_score >= 0.67
+
+    return {
+        'match': is_match,
+        'match_score': match_score,
+        'details': details
+    }
+
 def read_recent_excel_data(file_path: str, current_time_str: str, sheet_name=0) -> pd.DataFrame:
     """
     Reads data from an Excel file for the last 30 minutes based on the 'Datum' column.
