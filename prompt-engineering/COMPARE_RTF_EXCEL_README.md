@@ -14,13 +14,22 @@ The `compare_rtf_excel_data` function in `utils.py` allows you to:
 ### Basic Usage
 
 ```python
-from utils import compare_rtf_excel_data
+from utils import read_rtf_file, read_recent_excel_data, compare_rtf_excel_data
 
-# Compare data between an RTF file and an Excel file
+# Read the RTF file
 rtf_file_path = "path/to/your/file.rtf"
-excel_file_path = "path/to/your/file.xlsx"
+rtf_result = read_rtf_file(rtf_file_path)
 
-result = compare_rtf_excel_data(rtf_file_path, excel_file_path)
+# Get the date and time from the RTF file
+rtf_date_time = rtf_result['date_time']
+current_time_str = rtf_date_time.strftime('%Y-%m-%d %H:%M:%S')
+
+# Read the Excel file
+excel_file_path = "path/to/your/file.xlsx"
+excel_df = read_recent_excel_data(excel_file_path, current_time_str)
+
+# Compare the RTF and Excel data
+result = compare_rtf_excel_data(rtf_result, excel_df)
 
 if result['match']:
     print("The important data in the RTF and Excel files match!")
@@ -66,7 +75,18 @@ The function returns a dictionary with the following keys:
 ## Example
 
 ```python
-result = compare_rtf_excel_data("traffic_report.rtf", "traffic_data.xlsx")
+# Read the RTF file
+rtf_result = read_rtf_file("traffic_report.rtf")
+
+# Get the date and time from the RTF file
+rtf_date_time = rtf_result['date_time']
+current_time_str = rtf_date_time.strftime('%Y-%m-%d %H:%M:%S')
+
+# Read the Excel file
+excel_df = read_recent_excel_data("traffic_data.xlsx", current_time_str)
+
+# Compare the RTF and Excel data
+result = compare_rtf_excel_data(rtf_result, excel_df)
 
 # Sample result
 {

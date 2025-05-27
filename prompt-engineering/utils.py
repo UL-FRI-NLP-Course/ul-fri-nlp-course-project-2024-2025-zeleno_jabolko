@@ -7,14 +7,13 @@ def load_prompt_template(file_path):
         prompt_template = file.read()
     return prompt_template
 
-def compare_rtf_excel_data(rtf_file_path: str, excel_file_path: str, sheet_name=0) -> dict:
+def compare_rtf_excel_data(rtf_result: dict, excel_df: pd.DataFrame) -> dict:
     """
-    Compares important data between an RTF file and an Excel file.
+    Compares important data between an RTF result dictionary and an Excel DataFrame.
 
     Args:
-        rtf_file_path (str): The path to the RTF file.
-        excel_file_path (str): The path to the Excel file.
-        sheet_name (int or str, optional): The sheet name or index for the Excel file. Defaults to 0.
+        rtf_result (dict): A dictionary containing RTF data with 'date_time' and 'text' keys.
+        excel_df (pd.DataFrame): A pandas DataFrame containing Excel data.
 
     Returns:
         dict: A dictionary containing:
@@ -22,13 +21,11 @@ def compare_rtf_excel_data(rtf_file_path: str, excel_file_path: str, sheet_name=
             - 'match_score' (float): A score between 0 and 1 indicating how well the data matches.
             - 'details' (list): A list of strings with details about the comparison.
     """
-    # Read the RTF file
-    rtf_result = read_rtf_file(rtf_file_path)
     if not rtf_result:
         return {
             'match': False,
             'match_score': 0.0,
-            'details': ["Failed to read the RTF file."]
+            'details': ["Invalid RTF data."]
         }
 
     # Extract date, time, and text from the RTF file
@@ -39,20 +36,14 @@ def compare_rtf_excel_data(rtf_file_path: str, excel_file_path: str, sheet_name=
         return {
             'match': False,
             'match_score': 0.0,
-            'details': ["Could not extract date and time from the RTF file."]
+            'details': ["Could not extract date and time from the RTF data."]
         }
-
-    # Format the date and time for Excel comparison
-    current_time_str = rtf_date_time.strftime('%Y-%m-%d %H:%M:%S')
-
-    # Read the Excel file data for the time period around the RTF date and time
-    excel_df = read_recent_excel_data(excel_file_path, current_time_str, sheet_name)
 
     if excel_df.empty:
         return {
             'match': False,
             'match_score': 0.0,
-            'details': ["No matching data found in the Excel file for the given date and time."]
+            'details': ["No matching data found in the Excel data."]
         }
 
     # Initialize comparison results
