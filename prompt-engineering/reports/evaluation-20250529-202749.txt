@@ -1,0 +1,108 @@
+
+Evaluation Results:
+==================
+
+Model-Template: gemini-2.0-flash-v1-2024-01-31_18-00-00
+Scores:
+- Event similarity: 40.00
+- Road naming accuracy: 30.00
+- Length similarity: 85.00
+- Overall average: 51.67
+
+Model-Template: gemini-2.0-flash-v2-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 50.00
+- Length similarity: 90.00
+- Overall average: 63.33
+
+Model-Template: gemini-2.0-flash-v3-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 40.00
+- Length similarity: 100.00
+- Overall average: 63.33
+
+Model-Template: gemini-2.0-flash-v4-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 30.00
+- Length similarity: 100.00
+- Overall average: 60.00
+
+Model-Template: gemini-2.0-flash-v5-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 50.00
+- Length similarity: 90.00
+- Overall average: 63.33
+
+Model-Template: gemini-2.0-flash-v6-2024-01-31_18-00-00
+Scores:
+- Event similarity: 55.00
+- Road naming accuracy: 35.00
+- Length similarity: 95.00
+- Overall average: 61.67
+
+Model-Template: gemini-2.5-flash-preview-04-17-v1-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 25.00
+- Length similarity: 95.00
+- Overall average: 56.67
+
+Model-Template: gemini-2.5-flash-preview-04-17-v2-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 50.00
+- Length similarity: 85.00
+- Overall average: 61.67
+
+Model-Template: gemini-2.5-flash-preview-04-17-v3-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 25.00
+- Length similarity: 95.00
+- Overall average: 56.67
+
+Model-Template: gemini-2.5-flash-preview-04-17-v4-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 30.00
+- Length similarity: 95.00
+- Overall average: 58.33
+
+Model-Template: gemini-2.5-flash-preview-04-17-v5-2024-01-31_18-00-00
+Scores:
+- Event similarity: 25.00
+- Road naming accuracy: 30.00
+- Length similarity: 45.00
+- Overall average: 33.33
+
+Model-Template: gemini-2.5-flash-preview-04-17-v6-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 80.00
+- Length similarity: 90.00
+- Overall average: 73.33
+
+Model-Template: gemini-2.5-flash-preview-05-20-v6-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 25.00
+- Length similarity: 95.00
+- Overall average: 56.67
+
+Model-Template: gemini-2.5-flash-preview-05-20-v6-multi-shot-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 50.00
+- Length similarity: 95.00
+- Overall average: 65.00
+
+Model-Template: gemini-2.5-flash-preview-05-20-v6-zero-shot-2024-01-31_18-00-00
+Scores:
+- Event similarity: 50.00
+- Road naming accuracy: 50.00
+- Length similarity: 95.00
+- Overall average: 65.00

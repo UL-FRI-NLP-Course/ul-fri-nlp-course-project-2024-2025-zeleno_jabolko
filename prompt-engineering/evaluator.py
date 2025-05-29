@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 import glob
 import datetime
+from striprtf.striprtf import rtf_to_text
 
 
 reports_dir = './prompt-engineering/reports'
@@ -24,7 +25,7 @@ X, Y, Z
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=api_key)
-eval_model = genai.GenerativeModel('gemini-2.5-flash-preview-04-17')
+eval_model = genai.GenerativeModel('gemini-2.5-flash-preview-05-20')
 
 scores = {}
 original_reports = glob.glob(os.path.join(original_reports_dir, '*.rtf'))
@@ -34,6 +35,9 @@ print(f"Found {len(original_reports)} original reports")
 print(f"Found {len(generated_reports)} generated reports")
 
 # scores structure: {model_name: {template_name: {time: [score1, score2, score3]}}}
+
+log_comparisons = True  # Set to False to disable logging
+comparison_log_path = os.path.join(reports_dir, 'comparison-log.txt')
 
 def read_file_content(file_path):
     print(f"Reading file: {file_path}")
@@ -80,6 +84,7 @@ for original_path in original_reports:
     print(f"Found {len(matching_reports)} matching generated reports")
     
     original_content = read_file_content(original_path)
+    original_content = rtf_to_text(original_content)
     
     for generated_path in matching_reports:
         print(f"\nComparing with generated report: {generated_path}")
@@ -96,7 +101,11 @@ for original_path in original_reports:
         print(f"Model: {model_name}, Template: {template_name}")
 
         # Prepare the prompt
-        prompt = evalutation_template_string.replace('<original-report>', original_content).replace('<generated-report>', generated_content)
+        prompt = (
+            evalutation_template_string
+            + f"\n<original-report>{original_content}</original-report>"
+            + f"\n<generated-report>{generated_content}</generated-report>"
+        )
         
         try:
             import time
@@ -118,6 +127,22 @@ for original_path in original_reports:
                 # Store the scores
                 scores[model_name][template_name].append(evaluation_scores)
                 print(f"Successfully stored scores for {model_name}/{template_name}")
+
+                # Log comparison if enabled
+                if log_comparisons:
+                    log_entry = (
+                        "-----\n"
+                        f"Date: {filename.split('-')[-1]}\n"
+                        f"Model: {model_name}\n"
+                        f"Score: {','.join(map(str, evaluation_scores))}\n"
+                        "Original report:\n"
+                        f"{original_content}\n\n"
+                        "Generated report:\n"
+                        f"{generated_content}\n"
+                        "-----\n"
+                    )
+                    with open(comparison_log_path, 'a', encoding='utf-8') as log_file:
+                        log_file.write(log_entry)
             else:
                 print(f"Invalid scores received for {generated_path}")
         
