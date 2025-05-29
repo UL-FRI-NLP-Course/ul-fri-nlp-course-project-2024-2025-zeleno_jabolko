@@ -1,7 +1,0 @@
-<START_TRAFFIC_REPORT>
-Pozor na gorenjski avtocesti: Zaradi gorečega vozila je med uvozom Brezje in predorom Ljubno proti Ljubljani avtocesta zaprta. Obvoz je urejen po vzporedni regionalni cesti med priključkoma Brezje in Podtabor.
-
-Ponekod po Sloveniji megla zmanjšuje vidljivost. Vozite previdno in prilagodite hitrost razmeram na cesti.
-
-Velja praznična omejitev prometa za tovorna vozila z največjo dovoljeno maso nad 7,5 ton. Danes ta omejitev traja do 22. ure, v nedeljo, 2. januarja, pa od 8. do 22. ure.
-<END_TRAFFIC_REPORT>

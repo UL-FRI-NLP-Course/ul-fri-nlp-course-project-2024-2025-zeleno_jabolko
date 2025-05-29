@@ -1,0 +1,9 @@
+```text
+<START_TRAFFIC_REPORT>
+Zaprta je cesta Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom do 22. 7.
+
+Zaprta cesta Bratonci - Beltinci, v Beltincih na Panonski ulici, od 15.30 do 16.30.
+
+Zaprta cesta Gorje - Krnica, cesta na Pokljuko, od 11.30 do 12.30.
+<END_TRAFFIC_REPORT>
+```

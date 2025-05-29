@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Pozor, vozniki! Trenutno velja omejitev prometa za vsa tovorna vozila, katerih največja dovoljena masa presega 7,5 tone. Ta omejitev je v veljavi danes do 22. ure.
+
+Zaradi del na cesti je zaprta povezava med Duplico in Kamnikom, in sicer na odseku od Volčjega Potoka do bencinskega servisa. Ta zapora bo veljala vse do 22. julija.
+
+Prav tako so zaradi prireditev zaprte nekatere ceste: Do 16.30 je zaprta cesta Bratonci - Beltinci, in sicer na Panonski ulici v Beltincih. Do 12.30 pa je zaprta tudi cesta Gorje - Krnica, ki vodi proti Pokljuki.
+<END_TRAFFIC_REPORT>

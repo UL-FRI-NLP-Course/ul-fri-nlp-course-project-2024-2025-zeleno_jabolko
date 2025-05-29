@@ -1,0 +1,9 @@
+```text
+<START_TRAFFIC_REPORT>
+Na ljubljanski južni obvoznici je zastoj med Rudnikom in Centrom proti Kozarjam.
+
+Zaradi del bo do nedelje zaprta cesta Ljubljana - Zagorje pri Beričevem, pri Šklendrovcu pa bodo popolne zapore od 21. do 25. oktobra.
+
+Številne ulice v Ljubljani bodo zaprte to soboto in nedeljo zaradi Ljubljanskega maratona.
+<END_TRAFFIC_REPORT>
+```

@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Na Gorenjski avtocesti proti Karavankam promet poteka tekoče in brez posebnosti.
+
+Podobno tudi na Dolenjski avtocesti proti Obrežju, kjer ni zastojev in vožnja poteka brez večjih ovir.
+
+Na ljubljanski severni obvoznici proti Šentvidu je promet občasno povečan, a večjih zamud ni pričakovati.
+<END_TRAFFIC_REPORT>

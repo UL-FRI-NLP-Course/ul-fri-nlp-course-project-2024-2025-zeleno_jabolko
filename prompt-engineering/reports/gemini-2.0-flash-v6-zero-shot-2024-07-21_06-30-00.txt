@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Omejitev prometa za tovorna vozila nad 7,5 ton velja do 22. ure.
+
+Cesta Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom, je zaprta do 22. julija.
+
+Zaprta cesta Bratonci - Beltinci, v Beltincih na Panonski ulici, od 15.30 do 16.30. Zaprta je tudi cesta Gorje - Krnica, cesta na Pokljuko, od 11.30 do 12.30.
+<END_TRAFFIC_REPORT>

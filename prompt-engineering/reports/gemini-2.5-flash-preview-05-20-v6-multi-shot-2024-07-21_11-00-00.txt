@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Na gorenjski avtocesti pred predorom Karavanke je v obe smeri zastoj dolg približno en kilometer, predor občasno tudi zapirajo. Zastoji so tudi na cestah Lesce - Bled in Dragonja - Koper.
+
+Zaradi del je do 22. julija zaprta cesta Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom. V Beltincih pa je zaradi prireditve, na Panonski ulici, do 16.30 ure zaprta cesta Bratonci - Beltinci.
+
+In še opozorilo za tovorni promet: Do 22. ure velja omejitev prometa za vsa tovorna vozila, katerih največja dovoljena masa presega 7,5 tone.
+<END_TRAFFIC_REPORT>

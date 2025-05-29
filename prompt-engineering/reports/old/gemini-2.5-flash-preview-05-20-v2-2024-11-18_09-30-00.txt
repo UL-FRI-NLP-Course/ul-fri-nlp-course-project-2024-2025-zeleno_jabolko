@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Promet na slovenskih avtocestah in hitrih cestah poteka trenutno brez večjih zastojev ali posebnosti.
+
+Na Gorenjski avtocesti proti Karavankam in tudi proti Ljubljani je promet tekoč.
+
+Tudi na Primorski avtocesti v obe smeri, proti Kopru in proti Ljubljani, ni poročil o zastojih.
+<END_TRAFFIC_REPORT>

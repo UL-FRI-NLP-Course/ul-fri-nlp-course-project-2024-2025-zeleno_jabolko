@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Na gorenjski avtocesti je zastoj pred predorom Karavanke v obe smeri, dolg en kilometer. Predor občasno zapirajo.
+
+Zaprta je cesta Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom do 22. julija.
+
+Do 22. ure velja omejitev prometa za tovorna vozila nad 7,5 ton.
+<END_TRAFFIC_REPORT>

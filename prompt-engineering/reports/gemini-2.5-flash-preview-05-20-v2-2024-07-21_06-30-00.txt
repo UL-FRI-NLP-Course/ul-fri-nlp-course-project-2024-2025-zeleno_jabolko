@@ -1,0 +1,9 @@
+<START_TRAFFIC_REPORT>
+Danes do 22. ure velja splošna omejitev prometa za tovorna vozila z največjo dovoljeno maso nad sedem in pol tone.
+
+Zaradi del na cesti je zaprta cesta Duplica – Kamnik, na odseku med Volčjim Potokom in bencinskim servisom. Zapora traja do 22. julija.
+
+Zaradi prireditve bo danes med 15.30 in 16.30 zaprta cesta Bratonci – Beltinci, in sicer na Panonski ulici v Beltincih.
+
+Prav tako bo danes med 11.30 in 12.30 zaradi prireditve zaprta cesta Gorje – Krnica, torej cesta na Pokljuko.
+<END_TRAFFIC_REPORT>

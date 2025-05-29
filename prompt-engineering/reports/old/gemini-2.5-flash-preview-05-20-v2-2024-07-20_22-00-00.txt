@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Na Gorenjski avtocesti proti Karavankam promet teče tekoče, brez zastojev.
+
+Na Primorski avtocesti proti Kopru promet poteka normalno, brez posebnosti.
+
+Na Ljubljanski obvoznici, v vseh smereh, je promet običajen za ta čas, brez zastojev.
+<END_TRAFFIC_REPORT>

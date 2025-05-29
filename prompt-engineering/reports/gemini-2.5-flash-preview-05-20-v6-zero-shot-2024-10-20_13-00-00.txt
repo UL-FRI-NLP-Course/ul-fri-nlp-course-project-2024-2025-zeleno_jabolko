@@ -1,0 +1,8 @@
+<START_TRAFFIC_REPORT>
+Pozor vozniki, sledi prometna napoved:
+
+1.  **Zastoj** je trenutno na ljubljanski južni obvoznici, med Rudnikom in Centrom, v obe smeri vožnje.
+2.  **Omejitev prometa** za tovorna vozila, katerih največja dovoljena masa presega 7,5 tone, velja še do 22. ure.
+3.  Na cesti **Ljubljana - Zagorje** je pri Beričevem popolna zapora, ki traja še do polnoči.
+4.  Cesta čez **prelaz Vršič** je na vrhu prelaza zaradi del zaprta predvidoma do 8. novembra, vsak delovnik med 7.30 in 17. uro.
+<END_TRAFFIC_REPORT>

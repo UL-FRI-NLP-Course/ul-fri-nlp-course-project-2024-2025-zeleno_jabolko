@@ -1,0 +1,8 @@
+"""
+Do 22. ure velja omejitev prometa tovornih vozil, katerih največja dovoljena masa presega 7,5 t.
+
+Zaprta je cesta Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom do 22. 7.
+
+Zaprta je cesta Bratonci - Beltinci, v Beltincih na Panonski ulici, od 15.30 do 16.30.
+Zaprta je cesta Gorje - Krnica, cesta na Pokljuko, od 11.30 do 12.30.
+"""

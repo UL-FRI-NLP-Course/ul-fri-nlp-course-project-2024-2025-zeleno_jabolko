@@ -1,0 +1,9 @@
+```text
+<START_TRAFFIC_REPORT>
+Na dolenjski avtocesti sta zaradi nesreče zaprta vozni in prehitevalni pas od Dobruške vasi proti Kronovemu. Nastaja zastoj.
+
+Zaprta cesta Plave - Gonjače pri Plavah zaradi del na železniškem nadvozu do 22. novembra. Obvoz je urejen po glavni cesti Solkan - Plave.
+
+V noči na sredo bo promet skozi predor Karavanke med 20. in 5. uro potekal izmenično enosmerno. Pričakujte 30 minut čakanja.
+<END_TRAFFIC_REPORT>
+```

@@ -1,0 +1,9 @@
+<START_TRAFFIC_REPORT>
+Trenutno je zastoj na ljubljanski južni obvoznici, med Rudnikom in Centrom v smeri Kozarij.
+
+Ta konec tedna bo v Ljubljani zelo živahno, saj bo potekal Ljubljanski maraton. To pomeni številne zapore ulic po prestolnici, tako v soboto kot tudi v nedeljo. Pričakujte zapore in preusmeritve prometa.
+
+Ponoči pa velja popolna zapora hitre ceste Škofije - Koper, in sicer med Škofijami in mejnim prehodom Škofije. Zapora bo veljala od 22. ure zvečer do 5. ure zjutraj v smeri Italije.
+
+Ne pozabite tudi na dolgotrajne zapore. Cesta čez prelaz Vršič je zaradi del na vrhu prelaza zaprta vsak delavnik med 7.30 in 17. uro, predvidoma vse do 8. novembra.
+<END_TRAFFIC_REPORT>

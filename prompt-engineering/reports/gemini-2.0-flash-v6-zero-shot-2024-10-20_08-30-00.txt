@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Pozor, poslušalci! V Ljubljani so zaradi maratona zaprte številne ulice, vključno s priključkom Bežigrad v obe smeri ter izvoz Dravlje proti Zadobrovi in uvoz Dravlje proti Kosezam.
+
+Na cesti Ljubljana - Zagorje so delovne zapore pri Beričevem do 24. ure, pri Šklendrovcu pa bodo popolne zapore od 21. do 25. oktobra, med 8. in 17. uro.
+
+Cesta čez prelaz Vršič bo na vrhu prelaza zaprta zaradi del predvidoma do 8. novembra, od ponedeljka do petka, med 7.30 in 17. uro.
+<END_TRAFFIC_REPORT>

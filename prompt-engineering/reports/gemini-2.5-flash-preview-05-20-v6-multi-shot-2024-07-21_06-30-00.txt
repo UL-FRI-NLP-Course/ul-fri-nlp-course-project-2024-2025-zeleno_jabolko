@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Do 22. ure danes velja omejitev prometa tovornih vozil, katerih največja dovoljena masa presega 7,5 tone.
+
+Zaradi del je zaprta cesta Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom.
+
+Prav tako sta danes zaradi prireditev zaprti cesti: Bratonci - Beltinci, na Panonski ulici v Beltincih, med 15.30 in 16.30, ter cesta Gorje - Krnica, na Pokljuko, med 11.30 in 12.30.
+<END_TRAFFIC_REPORT>

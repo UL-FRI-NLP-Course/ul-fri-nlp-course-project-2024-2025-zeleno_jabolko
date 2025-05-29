@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Na Gorenjski avtocesti pred predorom Karavanke v smeri proti Karavankam ali Avstriji in proti Ljubljani je zastoj, dolg en kilometer. Občasno zapirajo predor.
+
+Zaradi dela je zaprta cesta Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom, do 22. julija.
+
+Zaprta je cesta Bratonci - Beltinci, v Beltincih na Panonski ulici, od 15.30 do 16.30 zaradi prireditve.
+</END_TRAFFIC_REPORT>

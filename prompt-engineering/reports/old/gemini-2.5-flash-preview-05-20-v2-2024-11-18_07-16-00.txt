@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Na Gorenjski avtocesti proti Karavankam promet trenutno poteka tekoče, brez posebnosti.
+
+Na Štajerski avtocesti proti Mariboru promet poteka tekoče in neovirano.
+
+Na Ljubljanski obvoznici promet v vseh smereh poteka brez zastojev.
+<END_TRAFFIC_REPORT>

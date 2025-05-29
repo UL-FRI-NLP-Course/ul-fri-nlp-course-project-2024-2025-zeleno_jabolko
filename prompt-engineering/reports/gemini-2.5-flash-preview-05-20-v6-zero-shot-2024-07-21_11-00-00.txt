@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Slab kilometer dolga kolona je na gorenjski avtocesti pred predorom Karavanke v obe smeri, predor občasno tudi zapirajo. Gosto je tudi na cestah Lesce - Bled in Dragonja - Koper.
+
+Popolna zapora ceste Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom, velja vse do 22. julija.
+
+Do 22. ure velja omejitev prometa tovornih vozil nad 7,5 tone. Med 15:30 in 16:30 pa je zaradi prireditve zaprta Panonska ulica v Beltincih, na cesti Bratonci - Beltinci.
+<END_TRAFFIC_REPORT>

@@ -1,9 +1,0 @@
-"""
-Na primorski avtocesti med razcepom Gabrk in Fernetiči proti Italiji oviran promet zaradi prometne nesreče.
-
-Zaradi prometne nesreče je zaprta regionalna cesta Jezersko - Zgornje Jezersko. Obvoz je urejen.
-
-Na gorenjski avtocesti med cestninsko postajo Hrušica in priključkom Jesenice vzhod proti Avstriji/Karavankam oviran promet zaradi okvare vozila.
-
-Povečan promet osebnih vozil je na mejnem prehodu Gruškovje pri izstopu iz države.
-"""

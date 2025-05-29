@@ -1,0 +1,9 @@
+```text
+<START_TRAFFIC_REPORT>
+Na ljubljanski južni obvoznici je zastoj med Rudnikom in Centrom proti Kozarjam.
+
+Cesta čez prelaz Vršič bo na vrhu prelaza zaradi del zaprta predvidoma do 8. novembra, od ponedeljka do petka, med 7.30 in 17. uro.
+
+Zaradi Ljubljanskega maratona bodo to soboto in nedeljo zaprte številne ulice v Ljubljani.
+<END_TRAFFIC_REPORT>
+```

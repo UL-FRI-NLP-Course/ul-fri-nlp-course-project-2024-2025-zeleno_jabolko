@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Začnimo z Ljubljano: zaradi današnjega Ljubljanskega maratona so po mestu zaprte številne ulice. Bodite pozorni, zaprt je priključek Bežigrad v obe smeri, izvoz Dravlje proti Zadobrovi in uvoz Dravlje proti Kosezam.
+
+Na Gorenjskem pa do 13. ure velja popolna zapora ceste Škofja Loka - Gorenja vas, in sicer v predoru Sten. Promet v obratni smeri je sicer mogoč.
+
+Še opozorilo za Zasavje: Na cesti Ljubljana - Zagorje je pri Beričevem zapora do polnoči, pri Šklendrovcu pa vse do 25. oktobra, vsak dan med 8. in 17. uro, veljajo popolne zapore.
+<END_TRAFFIC_REPORT>

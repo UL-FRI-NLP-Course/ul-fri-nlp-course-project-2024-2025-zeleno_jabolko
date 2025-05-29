@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Zaradi Ljubljanskega maratona so danes v Ljubljani zaprte številne ulice. Zaprt je tudi priključek Bežigrad v obe smeri ter izvoz Dravlje proti Zadobrovi in uvoz Dravlje proti Kosezam.
+
+Do 22. ure velja omejitev prometa za tovorna vozila z največjo dovoljeno maso nad 7,5 tone.
+
+Na cesti Škofja Loka - Gorenja vas je zaradi del v predoru Sten zapora do 13. ure, promet je možen v obratni smeri. Na cesti Ljubljana - Zagorje je pri Beričevem zapora do polnoči.
+<END_TRAFFIC_REPORT>

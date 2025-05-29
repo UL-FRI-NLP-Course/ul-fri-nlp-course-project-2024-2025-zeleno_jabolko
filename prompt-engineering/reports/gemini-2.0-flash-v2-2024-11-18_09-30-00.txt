@@ -1,0 +1,11 @@
+<START_TRAFFIC_REPORT>
+Na Dolenjski avtocesti je zaradi nesreče zaprt vozni in prehitevalni pas od Dobruške vasi proti Kronovemu. Nastaja zastoj.
+
+Zastoj je na Dolenjski avtocesti pred Kronovim proti Ljubljani.
+
+Dolenjska avtocesta bo popolnoma zaprta med priključkom Šmarje Sap in razcepom Malence proti Ljubljani v nočeh na sredo, četrtek in petek, do 22. novembra, med 21. uro in 5. uro.
+
+V noči na sredo bo promet skozi predor Karavanke med 20. in 5. uro potekal izmenično enosmerno. Predvideno čakanje za prehod predora je 30 minut.
+
+Cesta Plave - Gonjače bo pri Plavah zaprta do 22. novembra zaradi del na železniškem nadvozu. Obvoz bo po glavni cesti Solkan - Plave.
+<END_TRAFFIC_REPORT>

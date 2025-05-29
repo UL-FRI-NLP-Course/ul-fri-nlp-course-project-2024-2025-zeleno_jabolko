@@ -1,0 +1,9 @@
+```text
+<START_TRAFFIC_REPORT>
+Zaradi Ljubljanskega maratona so danes zaprte številne ulice v Ljubljani. Zaprt je priključek Bežigrad v obe smeri in izvoz Dravlje proti Zadobrovi ter uvoz Dravlje proti Kosezam.
+
+Cesta Škofja Loka - Gorenja vas je zaprta v predoru Sten do 13. ure. V obratni smeri je promet možen.
+
+Cesta čez prelaz Vršič bo na vrhu prelaza zaradi del zaprta predvidoma do 8. novembra, od ponedeljka do petka, vsak dan med 7.30 in 17. uro.
+<END_TRAFFIC_REPORT>
+```

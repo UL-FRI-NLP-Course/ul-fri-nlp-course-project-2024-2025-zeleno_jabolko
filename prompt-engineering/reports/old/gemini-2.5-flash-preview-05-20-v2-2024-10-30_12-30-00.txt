@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Na vseh slovenskih avtocestah in glavnih cestah ni poročil o posebnostih, promet poteka tekoče po vseh odsekih.
+
+Na Gorenjski avtocesti proti Karavankam ni poročil o ovirah, vožnja poteka tekoče in brez zastojev.
+
+Na Primorski avtocesti proti Kopru ni pričakovati zastojev, promet poteka normalno po celotni dolžini.
+<END_TRAFFIC_REPORT>

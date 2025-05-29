@@ -1,0 +1,9 @@
+<START_TRAFFIC_REPORT>
+Zaradi Ljubljanskega maratona bosta to soboto in nedeljo zaprti številne ulice v Ljubljani.
+
+Na ljubljanski južni obvoznici je med Rudnikom in Centrom proti Kozarjam zastoj.
+
+Cesta čez prelaz Vršič je na vrhu prelaza zaradi del zaprta predvidoma do 8. novembra, od ponedeljka do petka, med 7.30 in 17. uro.
+
+Na cesti Ljubljana - Zagorje so delovne zapore: pri Beričevem bo zaprta do nedelje do 24. ure, pri Šklendrovcu pa od 21. do 25. oktobra, vsak dan od 8. do 17. ure.
+<END_TRAFFIC_REPORT>

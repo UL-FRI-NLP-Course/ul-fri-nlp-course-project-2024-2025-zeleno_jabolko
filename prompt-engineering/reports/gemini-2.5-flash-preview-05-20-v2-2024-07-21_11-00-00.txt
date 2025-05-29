@@ -1,0 +1,11 @@
+<START_TRAFFIC_REPORT>
+Na gorenjski avtocesti pred predorom Karavanke, v obe smeri proti Avstriji in proti Ljubljani, nastaja zaradi občasnega zapiranja predora zastoj dolg en kilometer.
+
+Zastoji nastajajo tudi na regionalni cesti med Lescami in Bledom ter na regionalni cesti med Dragonjo in Koprom.
+
+Zaradi del na cesti je zaprta regionalna cesta med Duplico in Kamnikom, in sicer na odseku med Volčjim Potokom in bencinskim servisom.
+
+Zaradi prireditve bo danes med pol četrto in pol peto uro popoldne zaprta regionalna cesta med Bratonci in Beltinci, na Panonski ulici v Beltincih.
+
+Ne pozabite, da do desete ure zvečer velja omejitev prometa za tovorna vozila z največjo dovoljeno maso nad sedem in pol tone.
+<END_TRAFFIC_REPORT>

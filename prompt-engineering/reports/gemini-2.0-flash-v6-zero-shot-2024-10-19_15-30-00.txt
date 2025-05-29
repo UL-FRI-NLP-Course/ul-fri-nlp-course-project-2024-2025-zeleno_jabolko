@@ -1,0 +1,9 @@
+<START_TRAFFIC_REPORT>
+Zastoj je na ljubljanski južni obvoznici med Rudnikom in Centrom proti Kozarjam.
+
+Zaprta je cesta Ljubljana - Zagorje pri Beričevem do nedelje do 24. ure. Pri Šklendrovcu bodo popolne zapore od 21. do 25. oktobra, vsak dan od 8. do 17. ure.
+
+Cesta čez prelaz Vršič bo na vrhu prelaza zaprta zaradi del predvidoma do 8. novembra, od ponedeljka do petka, vsak dan med 7.30 in 17. uro.
+
+Zaradi Ljubljanskega maratona bodo to soboto in nedeljo zaprte številne ulice v Ljubljani.
+<END_TRAFFIC_REPORT>
