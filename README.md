@@ -24,7 +24,7 @@ data/                     # Directory containing the original excel file
 fine-tuning/              # Directory containing fine-tuning scripts and configurations
 ├── prompt_templates/     # Directory containing prompt templates for generating reports
 ├── dataset-2024.json/    # JSON converted dataset from original reports (excel)
-prompt_engineering/
+prompt_engineering/       # Directory containing scripts for prompt engineering and evaluation
 ├── prompt_templates/     # Directory containing prompt templates for generating reports
 ├── reports/              # Directory to save generated reports
 ├── reports_original/     # Directory containing original reports (rtfs)
