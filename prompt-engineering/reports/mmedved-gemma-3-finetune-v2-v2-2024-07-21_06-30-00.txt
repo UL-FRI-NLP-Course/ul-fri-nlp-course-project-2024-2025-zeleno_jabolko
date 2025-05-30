@@ -1,0 +1,14 @@
+<START_TRAFFIC_REPORT>
+Na Primorski avtocesti je zaradi prireditve zaprt cestni promet proti Italiji na razsutem odseku Podbreznic do Razcep Gabrk.
+
+Na štajerski avtocesti med razcepom Slivnica in razcepom Dragočova je zaradi prometne zastoj zaradi del ter zaradi prireditve zaprt cestni promet proti Avstriji/Lendavi ali proti Ljubljani.
+
+Na meddržavni cestni vožnji proti Dolgi Vasi je zaradi prometne zastoj voznika čaka več kot 60 minut.
+
+Na krajših cestah zaradi prireditve zaprt promet na cestah:
+- Bratonci - Beltinci, cesta v Beltincih na Panonski ulici.
+- Gorje - Krnica, cesta na Pokljuko.
+
+Podatke o prometu v realnem času si lahko prilagodite z gumbom za prometne slike prometnega mesta:
+https://www.promet.si/
+</END_TRAFFIC_REPORT>

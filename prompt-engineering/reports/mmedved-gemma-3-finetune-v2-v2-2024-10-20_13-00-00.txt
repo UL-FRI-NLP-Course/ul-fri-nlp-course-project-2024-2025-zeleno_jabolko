@@ -1,0 +1,13 @@
+<START_TRAFFIC_REPORT>
+Dobar dan, to je pomembna prometna informacija.
+
+Na ljubljanski južni obvoznici je pri Črni pri Ljubljani do centra prometni zastoj.
+
+Na primorski avtocesti med Slovenj Gradom in Tolminom je zaradi nesreče zaradi prometnega zastaja promet omejen do razcep Razcep Mladežnik.
+
+Na spremljevalnici Gorica - Kobari je zaradi nesreče zaradi prometnega zastaja promet omejen v smeri proti Jesenicam.
+
+Na primorski hitri cesti pri zavoju Podgorica proti italijanski občini je zaradi prometnega zastaja promet omejen.
+
+Na štajerski avtocesti v smeri proti Predorju je zaradi prikaza obratnega toka promet omejen pri razcepu Trnovec.
+</END_TRAFFIC_REPORT>

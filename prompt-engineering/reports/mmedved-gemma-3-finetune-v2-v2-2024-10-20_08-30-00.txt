@@ -1,0 +1,11 @@
+<START_TRAFFIC_REPORT>
+Zaradi petkovega maratona bodo v Ljubljani zaprte številne ulice.
+
+Na cesti Ljubljana - Zagreb je na zaprtih cestah med priključkom Gostilje in priključkom Brezovica zaradi prometne del proti Zagrebu.
+
+Na celotni primorski avtocesti zaradi del so zaprti predori Primorski avtocesti kmetijske.
+
+Na ljubljanski obvoznici je zaprt priključek Bežigrad v obe smeri in je zaprt tudi izvoz Dravlje proti Zadobrovi in uvoz Dravlje proti Kosezam.
+
+Podatki o prometu na prometni cesti Soča so bili odstranjeni.
+<END_TRAFFIC_REPORT>
