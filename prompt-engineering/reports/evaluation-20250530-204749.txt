@@ -1,0 +1,123 @@
+
+Evaluation Results:
+==================
+
+Model-Template: gemini-2.0-flash-v1
+Scores:
+- Event similarity: 45.83
+- Road naming accuracy: 43.33
+- Length similarity: 90.00
+- Overall average: 59.72
+- Count: 6 evaluations
+
+Model-Template: gemini-2.0-flash-v6
+Scores:
+- Event similarity: 33.33
+- Road naming accuracy: 38.33
+- Length similarity: 65.00
+- Overall average: 45.56
+- Count: 6 evaluations
+
+Model-Template: gemini-2.0-flash-v6-multi-shot
+Scores:
+- Event similarity: 35.00
+- Road naming accuracy: 46.67
+- Length similarity: 66.67
+- Overall average: 49.44
+- Count: 6 evaluations
+
+Model-Template: gemini-2.0-flash-v6-zero-shot
+Scores:
+- Event similarity: 38.33
+- Road naming accuracy: 45.00
+- Length similarity: 71.67
+- Overall average: 51.67
+- Count: 6 evaluations
+
+Model-Template: gemini-2.5-flash-preview-05-20-v4
+Scores:
+- Event similarity: 45.00
+- Road naming accuracy: 49.17
+- Length similarity: 71.67
+- Overall average: 55.28
+- Count: 6 evaluations
+
+Model-Template: gemini-2.5-flash-preview-05-20-v5
+Scores:
+- Event similarity: 31.67
+- Road naming accuracy: 36.67
+- Length similarity: 91.67
+- Overall average: 53.33
+- Count: 6 evaluations
+
+Model-Template: gemini-2.5-flash-preview-05-20-v6
+Scores:
+- Event similarity: 45.83
+- Road naming accuracy: 55.00
+- Length similarity: 85.00
+- Overall average: 61.94
+- Count: 6 evaluations
+
+Model-Template: gemini-2.5-flash-preview-05-20-v6-multi-shot
+Scores:
+- Event similarity: 42.50
+- Road naming accuracy: 50.00
+- Length similarity: 66.67
+- Overall average: 53.06
+- Count: 6 evaluations
+
+Model-Template: google-gemma-3-4b-it-v3
+Scores:
+- Event similarity: 40.00
+- Road naming accuracy: 41.67
+- Length similarity: 81.67
+- Overall average: 54.44
+- Count: 6 evaluations
+
+Model-Template: google-gemma-3-4b-it-v4
+Scores:
+- Event similarity: 40.00
+- Road naming accuracy: 52.00
+- Length similarity: 86.00
+- Overall average: 59.33
+- Count: 5 evaluations
+
+Model-Template: google-gemma-3-4b-it-v5
+Scores:
+- Event similarity: 38.33
+- Road naming accuracy: 40.83
+- Length similarity: 85.00
+- Overall average: 54.72
+- Count: 6 evaluations
+
+Model-Template: google-gemma-3-4b-it-v6
+Scores:
+- Event similarity: 43.33
+- Road naming accuracy: 41.67
+- Length similarity: 76.67
+- Overall average: 53.89
+- Count: 6 evaluations
+
+Model-Template: google-gemma-3-4b-it-v6-zero-shot
+Scores:
+- Event similarity: 37.50
+- Road naming accuracy: 38.33
+- Length similarity: 52.00
+- Overall average: 42.61
+- Count: 6 evaluations
+
+Model-Template: mmedved-gemma-3-finetune-v2-v2
+Scores:
+- Event similarity: 14.00
+- Road naming accuracy: 18.00
+- Length similarity: 36.00
+- Overall average: 22.67
+- Count: 5 evaluations
+
+Model-Template: mmedved-gemma-3-finetune-v6-v6
+Scores:
+- Event similarity: 10.00
+- Road naming accuracy: 0.00
+- Length similarity: 42.00
+- Overall average: 17.33
+- Count: 5 evaluations

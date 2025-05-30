@@ -26,7 +26,7 @@ X, Y, Z
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=api_key)
-eval_model = genai.GenerativeModel('gemini-2.5-flash-preview-05-20')
+eval_model = genai.GenerativeModel('gemini-2.0-flash')
 
 scores = {}
 
@@ -84,12 +84,13 @@ def find_matching_original_report(generated_filename, original_reports):
     
     date_str = date_match.group(1)
     # Convert format from YYYY-MM-DD_HH-MM-SS to YYYY-MM-DD HH:MM:SS
-    formatted_date = date_str.replace('_', ' ').replace('-', ':', 2)
-    # Replace the last two dashes with colons for time part
+    # First replace underscore with space
+    formatted_date = date_str.replace('_', ' ')
+    # Split into date and time parts
     parts = formatted_date.split(' ')
     if len(parts) == 2:
-        date_part = parts[0]
-        time_part = parts[1].replace('-', ':')
+        date_part = parts[0]  # Keep date part as is (YYYY-MM-DD)
+        time_part = parts[1].replace('-', ':')  # Convert time dashes to colons
         formatted_date = f"{date_part} {time_part}"
     
     print(f"Looking for original report with date: {formatted_date}")
