@@ -1,0 +1,9 @@
+"""
+Zaradi omejitve prometa tovornih vozil, katerih največja dovoljena masa presega 7,5 t, je povečan promet na avtocestah in avtocestnih odsekih.
+
+Zaprta je cesta Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom v Kamniku do 22.7.
+
+Cesta Bratonci - Beltinci je zaprta v Beltincih na Panonski ulici med 15.30 in 16.30.
+
+Cesta Gorje - Krnica, cesta na Pokljuko, je zaprta med 11.30 in 12.30.
+"""

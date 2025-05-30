@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Zaradi omejitve prometa tovornih vozil, katerih masa presega 7,5 tone, velja omejitev do 22. ure.
+
+Cesta Duplica – Kamnik, med Volčjim Potokom in bencinskim servisom, je zaprta do 22.7. zaradi dela na cesti.
+
+Poleg tega so zaradi prireditev zaprti deli cest: Bratonci – Beltinci, na Panonski ulici v Beltincih, od 15.30 do 16.30, in cesta na Pokljuko med Gorjem in Krnico, od 11.30 do 12.30.
+<END_TRAFFIC_REPORT>

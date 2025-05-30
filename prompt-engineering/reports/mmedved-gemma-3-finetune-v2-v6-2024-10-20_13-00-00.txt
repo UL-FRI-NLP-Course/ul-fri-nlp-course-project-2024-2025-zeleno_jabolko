@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Zaradi del je zastoj na ljubljanski južni obvoznici med Rudnikom in Centrom v obe smeri.
+
+Do 22. ure je pod pogojami prometni tovornih vozil omejen promet tovornih vozil, katerih največja dovoljena masa presega 7,5 tone.
+
+Cesta čez prelaz Vršič bo na vrhu prelaza zaradi del zaprta do 8. novembra, medtem ko bomo zaradi del prav tako cestni promet omejili pri Beričevem do 24. ure in pri Šklendrovcu od 21. do 25.10., vsak dan od 8 do 17. ure.
+<END_TRAFFIC_REPORT>

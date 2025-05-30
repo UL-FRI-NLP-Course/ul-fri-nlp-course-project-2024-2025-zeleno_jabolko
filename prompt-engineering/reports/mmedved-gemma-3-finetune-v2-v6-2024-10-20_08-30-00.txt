@@ -1,0 +1,15 @@
+<START_TRAFFIC_REPORT>
+Due to the Ljubljana marathon, several streets in Ljubljana will be closed today. 
+
+Due to the Ljubljana marathon, the Bežigrad exit will be closed in both directions, and the Dravlje exit towards Zadobrova.
+
+Until 22:00, trucks with a maximum weight greater than 7.5 tons are restricted.
+
+Road closures on the Ljubljana - Zagorje road:
+- Near Beričevo, it will be closed until 24:00.
+- At Šklendrovci, full closures will occur from 21:00 to 25.10. Every day from 8:00 to 17:00.
+
+Road Škofja Loka - Gorenja vas will be closed in the Sten tunnel until 13:00.
+
+The road over Vršič pass will be closed for roadworks until approximately November 8th, from Monday to Friday, between 7:30 and 17:00.
+</END_TRAFFIC_REPORT>

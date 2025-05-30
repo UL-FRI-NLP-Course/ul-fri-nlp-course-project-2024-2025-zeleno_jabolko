@@ -1,0 +1,9 @@
+<START_TRAFFIC_REPORT>
+Zastoji so zabeleženi na ljubljanski južni obvoznici med Rudnikom in Centrom v obe smeri.
+
+Do 22. ure velja omejitev prometa tovornih vozil z največjo dovoljeno maso več kot 7,5 tone.
+
+Na cesti Ljubljana - Zagorje bodo delovne zapore pri Beričevem do 24. ure in pri Šklendrovcu od 21. do 25. oktobra, vsak dan med 8. in 17. uro.
+
+Zaradi del na prelazu Vršič bo cesta na vrhu prelaza zaprta do 8. novembra, med 7.30 in 17. uro, od ponedeljka do petka.
+<END_TRAFFIC_REPORT>

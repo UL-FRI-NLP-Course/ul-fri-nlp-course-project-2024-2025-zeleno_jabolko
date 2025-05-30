@@ -1,0 +1,13 @@
+<START_TRAFFIC_REPORT>
+Na ljubljanski južni obvoznici med Rudnikom in Centrom je nastala zastojka, potnika se zanesejo na povišane čase.
+
+Delovne zapore na cesti Ljubljana - Zagorje: pri Beričevem bo cesta zaprta do nedelje do 24. ure. Pri Šklendrovcu bodo popolne zapore od 21. do 25. 10., vsak dan od 8. do 17. ure.
+
+Hitra cesta Škofije - Koper bo med Škofijami in prehodom Škofije zaprta v noči na nedeljo med 22. in 5. uro proti Italiji.
+
+V Ljubljani bo oktobra in novembra v nočnem času zapora Dunajska cesta, med Vilharjevo in Trgom OF.
+
+Zaradi Ljubljanskega maratona bodo to soboto in nedeljo zaprte številne ulice v Ljubljani.
+
+Cesta čez prelaz Vršič bo na vrhu prelaza zaprta zaradi del zaprta predvidoma do 8. novembra, od ponedeljka do petka, vsak dan med 7.30 in 17. uro.
+<END_TRAFFIC_REPORT>

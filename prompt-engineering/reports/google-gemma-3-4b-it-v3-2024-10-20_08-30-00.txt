@@ -1,0 +1,13 @@
+"""
+Zaradi Ljubljanskega maratona je zaprt priključek Bežigrad v obe smeri in izvoz Dravlje proti Zadobrovi ter uvoz Dravlje proti Kosezam.
+
+Do 22. ure velja omejitev prometa tovornih vozil, katerih največja dovoljena masa presega 7,5 tone.
+
+Na cesti Ljubljana - Zagorje je pri Beričevem zaprta cesta do 24. ure.
+
+Na cesti Ljubljana - Zagorje so popolne zapore od 21. do 25. 10., vsak dan od 8. do 17. ure, pri Šklendrovcu.
+
+Cesta Škofja Loka - Gorenja vas je zaprta v predoru Sten do 13. ure. V obratni smeri je promet možen.
+
+Na prelazu Vršič je cesta na vrhu predvidoma zaprta do 8. novembra, od ponedeljka do petka, vsak dan med 7.30 in 17. uro.
+"""

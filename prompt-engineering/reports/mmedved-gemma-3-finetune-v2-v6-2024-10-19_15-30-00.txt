@@ -1,0 +1,9 @@
+<START_TRAFFIC_REPORT>
+Zaradi Ljubljanskega maratona bo v Ljubljani zaprtih več ulic, ker je pod okraj šivami.
+
+Na ljubljanski južni obvoznici med Rudnikom in Centrom proti Kozarjem bo zaprt tudi promet.
+
+Na cesti **Ljubljana** - **Zagorje:** pri Beričevem bo promet zaprt do nedelje do 24. ure in pri Šklendrovcu vsak dan od 8 do 17. Ur.
+
+Na prometni črsi je predvidoma do 8. novembra zaprt promet na prelazu Vršič.
+</START_TRAFFIC_REPORT>

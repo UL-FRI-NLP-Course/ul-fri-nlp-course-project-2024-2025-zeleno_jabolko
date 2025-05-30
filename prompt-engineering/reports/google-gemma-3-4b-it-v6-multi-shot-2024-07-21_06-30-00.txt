@@ -1,7 +1,7 @@
 <START_TRAFFIC_REPORT>
 Zaradi omejitve prometa tovornih vozil, katerih masa presega 7,5 tone, velja opozorilo do 22. ure.
 
-Cesta Duplica med Volčjim Potokom in bencinskim servisom je zaprta do 22.7. zaradi del.
+Zaprta je cesta Duplica med Volčjim Potokom in bencinskim servisom do 7. julija.
 
-Poleg tega je zaprta cesta Bratonci - Beltinci, v Beltincih na Panonski ulici, med 15.30 in 16.30 ter cesta Gorje – Krnica na Pokljuko med 11.30 in 12.30 zaradi prireditev.
+Poleg tega so zaprte ceste med prireditvami: Bratonci in Beltinci na Panonski ulici med 15.30 in 16.30, ter Gorje in Krnica na cesti proti Pokljuko med 11.30 in 12.30. Za podrobnosti obiščite spletno stran prometne informativne službe.
 <END_TRAFFIC_REPORT>

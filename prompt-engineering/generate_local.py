@@ -5,8 +5,9 @@ import sys
 import time
 
 models = [
-    "cjvt/GaMS-9B-Instruct",
-    "google/gemma-3-12b-it",
+    "google/gemma-3-4b-it",
+    "mmedved/gemma-3-finetune-v2",
+    "mmedved/gemma-3-finetune-v6"
 ]
 
 templates = [

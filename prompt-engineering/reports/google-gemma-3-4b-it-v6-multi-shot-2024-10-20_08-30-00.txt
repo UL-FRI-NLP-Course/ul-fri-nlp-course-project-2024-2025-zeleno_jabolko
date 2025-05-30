@@ -1,12 +1,12 @@
 <START_TRAFFIC_REPORT>
-Zaradi Ljubljanskega maratona so danes zaprte številne ulice v Ljubljani, vključno z priključkom Bežigrad in izvozom Dravlje.
+Ljubljana bo danes zaprta več ulic zaradi Ljubljanskega maratona, vključno s priključkom Bežigrad in izvozom Dravlje.
 
-Velja omejitev prometa tovornih vozil s težo več kot 7,5 tone do 22. ure.
+Do 22. ure velja omejitev prometa za tovarna vozila s težo več kot 7,5 tone.
 
-Na cesti Ljubljana - Zagorje so zaprte javor pri Beričevem do 24. ure in popolne zapore pri Šklendrovcu od 21. do 25. oktobra, vsak dan med 8. in 17. uro.
+Na cesti Ljubljana - Zagorje bodo zaprte jermana pri Beričevem do 24. ure, ter popolne zapore pri Šklendrovcu od 21. do 25. oktobra, med 8. in 17. uro.
 
-Cesta Škofja Loka - Gorenja vas je zaprta v predoru Sten do 13. ure.
+Cesta Škofja Loka - Gorenja vas bo zaprta v predoru Sten do 13. ure.
 
-Na prelazu Vršič bo zaradi del zaprta cesta do 8. novembra, vsak dan med 7.30 in 17. uro.
+Na prelazu Vršič bo do 8. novembra zaprta cesta zaradi del, med 7.30 in 17. uro, od ponedeljka do petka.
 
 <END_TRAFFIC_REPORT>

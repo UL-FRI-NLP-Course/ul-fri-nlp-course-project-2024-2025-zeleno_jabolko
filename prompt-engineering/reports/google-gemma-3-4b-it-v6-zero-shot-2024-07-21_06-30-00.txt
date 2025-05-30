@@ -1,0 +1,7 @@
+<START_TRAFFIC_REPORT>
+Do 22:00 je omejen promet tovornih vozil s težo več kot 7,5 tone.
+
+Cesta Duplica - Kamnik, med Volčjim Potokom in bencinskim servisom, je zaprta do 22.7.
+
+Obstajajo zaprte cesti zaradi prireditev: Bratonci - Beltinci (Panonski ul., 15:30-16:30) in Gorje - Krnica (cesta na Pokljuko, 11:30-12:30).
+<END_TRAFFIC_REPORT>

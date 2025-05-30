@@ -1,0 +1,6 @@
+<START_TRAFFIC_REPORT>
+Zaradi prometne nesreče je zaprta regionalna cesta Pesek - Oplotnica v Oplotnici.
+Na gorenjski avtocesti pred predorom Karavanke v obe smeri zaprt promet na razcepu Podmenina - Predor Karavanke.
+
+Do 22. ure velja omejitev prometa tovornih vozil, katerih največja dovoljena masa presega 7,5 t.
+<END_TRAFFIC_REPORT>

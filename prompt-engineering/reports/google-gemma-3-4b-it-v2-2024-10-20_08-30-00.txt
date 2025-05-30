@@ -1,0 +1,16 @@
+<START_TRAFFIC_REPORT>
+Ljubljana-Koper – Primorska avtocesta / proti Kopru – Zaprta je ulica Bežigrad v obe smeri zaradi Ljubljanskega maratona. Posledica: zaprt je priključek Bežigrad v obe smeri in izvoz Dravlje proti Zadobrovi.
+
+Ljubljana-Obrežje – Dolenjska avtocesta / proti Obrežju – Zaprt je priključek Dravlje proti Kosezam zaradi maratona. Posledica: zapor Dravlje proti Kosezam.
+
+Ljubljana-Zagora – Cesta Ljubljana - Zagorje / proti Zagorju – Zaprta je cesta pri Beričevem do 24. ure zaradi maratona. Posledica: zapor pri Beričevem.
+
+Ljubljana-Škofja Loka – Cesta Ljubljana - Zagorje / proti Škofji Loki – Popolne zapore na cesti med Šklendrovcem od 21. do 25. 10. med 8. in 17. uro zaradi maratona. Posledica: popolne zapore med Šklendrovcem.
+
+Ljubljanska obvoznica (vzhodna) – proti Avstriji/Lendavi – Zaprta je cesta Škofja Loka - Gorenja vas v predoru Sten do 13. ure. Posledica: zapor predora Sten.
+
+Ljubljanska obvoznica (zahodna) – proti Avstriji/Lendavi –  V obratni smeri je promet možen zaradi predora Sten.
+
+Avtocestni odsek Maribor-Šentilj: od Maribora proti Šentilju – Zaprta je cesta čez prelaz Vršič na vrhu prelaza do 8. novembra med 7.30 in 17. uro zaradi del. Posledica: zapor na prelazu Vršič.
+
+<END_TRAFFIC_REPORT>

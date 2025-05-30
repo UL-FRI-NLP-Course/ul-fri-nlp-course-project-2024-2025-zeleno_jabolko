@@ -1,0 +1,12 @@
+<START_TRAFFIC_REPORT>
+[Traffic info #1] There are significant traffic jams on the southern Ljubljana ring road between Rudnik and Centrium heading towards Kozjak.
+
+[Traffic info #2] The road between Ljubljana and Zagorje will be closed near Beričevo until Sunday at 24:00.  Full closures are also scheduled near Šklendrovec from October 21st to 25th, daily from 8:00 to 17:00.
+
+[Traffic info #3] The A1 highway (Škofije - Koper) will be closed overnight on October 30th between 22:00 and 5:00, heading towards Italy.
+
+[Traffic info #4] The Vršič Pass road will be closed on the summit from October 29th to November 8th, daily between 7:30 and 17:00.
+
+[Event info #1]  Due to the Ljubljana Marathon this Saturday and Sunday, numerous streets in Ljubljana will be closed.
+
+<END_TRAFFIC_REPORT>

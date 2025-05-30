@@ -1,0 +1,10 @@
+Okay, here’s a radio traffic report based on the provided data:
+
+<START_TRAFFIC_REPORT>
+Zaradi del na cesti Duplica - Kamnik med Volčjim Potokom in bencinskim servisom velja do 22.7. zaprt promet.
+Zaradi nesreče sta zaprti regionalni cesti Lesce - Bled in Dragonja - Koper.
+
+Na gorenjski avtocesti pred predorom Karavanke občasno zapirajo predor.
+
+Do 22. ure velja prometna omejitev tovornih vozil, katerih največja dovoljena masa presega 7,5 t.
+</END_TRAFFIC_REPORT>
