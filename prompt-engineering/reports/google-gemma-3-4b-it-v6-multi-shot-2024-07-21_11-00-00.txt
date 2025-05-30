@@ -1,0 +1,10 @@
+<START_TRAFFIC_REPORT>
+Zastoji so zabeleženi na gorenjski avtocesti, 1 km pred predorom Karavanke, občasno pa je zapiran predor.
+
+Zastoji so tudi na cestah Lesce-Bled in Dragonja-Koper.
+
+Do 22. ure velja omejitev prometa tovornih vozil z največjo dovoljeno maso več kot 7,5 tone.
+
+Zaprta je cesta Duplica med Volčjim Potokom in bencinskim servisom do 22.7.
+
+<END_TRAFFIC_REPORT>

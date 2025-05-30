@@ -1,0 +1,5 @@
+<START_TRAFFIC_REPORT>
+[Traffic info #1]Na ljubljanski južni obvoznici med Rudnikom in Centrom v obe smeri je zaradi del zaprta promet.
+[Traffic info #2]Do 22. ure velja omejitev prometa tovornih vozil, katerih največja dovoljena masa presega 7,5 t.
+[Traffic info #3]Delovne zapore na cesti Ljubljana - Zagorje: pri Beričevem bo zaprta do 24. ure;<br>- pri Šklendrovcu bodo popolne zapore od 21. do 25. 10., vsak dan od 8. do 17. ure.
+<END_TRAFFIC_REPORT>

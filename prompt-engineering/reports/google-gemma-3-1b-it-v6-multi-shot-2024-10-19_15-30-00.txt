@@ -1,0 +1,14 @@
+<START_TRAFFIC_REPORT>
+Zaradi prometne nesreče je zaprta regionalna cesta Ajševica - Rožna Dolina pri Ajševici.
+Prav tako je zaradi prometne nesreče zaprta regionalna cesta Pesek - Oplotnica v Oplotnici.
+
+Na nekdanji hitri cesti skozi Maribor proti Slivnici predmet na cestišču ovira promet pred izvozom Maribor - center.
+Na nekdanji hitri cesti skozi Maribor proti Slivnici predmet na cestišču ovira promet pred izvozom Maribor - center.
+
+Na severni ljubljanski obvoznici je zaradi pokvarjenega vozila promet oviran pred priključkom Nove Jarše proti Kosezam.
+Na dolenjski avtocesti je pred priključkom Obrežje promet proti Hrvaški oviran zaradi živali na vozišču.
+Na štajerski avtocesti proti Mariboru je zaradi del zaprt vozni pas med Blagovico in Trojanami v predoru Podmilj.
+
+Zaradi del je zastoj na južni ljubljanski obvoznici med razcepom Malence in priključkom Center proti Primorski.
+Na severni ljubljanski obvoznici je zaradi pokvarjenega vozila promet oviran pred priključkom Nove Jarše proti Kosezam.
+</END_TRAFFIC_REPORT>
